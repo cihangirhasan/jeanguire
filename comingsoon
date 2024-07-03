@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #FF69B4;
+            color: #FFFFFF;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 4em;
+            margin: 0.5em 0;
+            text-shadow: 2px 2px #FF1493;
+        }
+
+        .countdown {
+            font-size: 2em;
+            margin: 1em 0;
+        }
+
+        .subscribe {
+            margin: 1em 0;
+        }
+
+        input[type="email"] {
+            padding: 0.5em;
+            font-size: 1em;
+        }
+
+        input[type="submit"] {
+            padding: 0.5em 1em;
+            font-size: 1em;
+            background-color: #FF1493;
+            border: none;
+            color: #FFFFFF;
+            cursor: pointer;
+            margin-left: 0.5em;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #FF4500;
+        }
+
+        .social-media {
+            margin-top: 1em;
+        }
+
+        .social-media a {
+            margin: 0 1em;
+            text-decoration: none;
+            color: #FFFFFF;
+            font-size: 2em;
+        }
+
+        .footer {
+            margin-top: 2em;
+            font-size: 0.75em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Coming Soon</h1>
+        <div class="countdown">Stay tuned!</div>
+        
+        
+        <div class="footer">© 2024 C.H.</div>
+    </div>
+</body>
+</html>
